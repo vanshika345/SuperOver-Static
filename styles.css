@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+section {
+    margin: 10vh auto;
+  }
+
+#india{
+    
+    width: 35vw;
+    height: 50vh;
+    border-radius: 20px;
+    font-size: 7vh;
+    display: inline-block;
+    background-color: #005fa2;
+    padding: 6vh;
+}
+
+#pakistan{
+    
+    width: 35vw;
+    height: 50vh;
+    border-radius: 20px;
+    font-size: 7vh;
+    display: inline-block;
+    background-color: #1fa83d;
+    padding: 6vh;
+}
+
+.ball{
+    width: 7vh;
+    height: 7vh;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    height: 14vh;
+    gap: 6vh;
+}
+.countries{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.topImg{
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    margin: 5vh;
+}
+
